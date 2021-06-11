@@ -1,0 +1,212 @@
+nav {
+  background-color: #555555;
+}
+
+.navbar-brand h3 {
+  color: white;
+}
+
+.navbar-brand h4 {
+  color: darkgoldenrod;
+  padding-left: 10%;
+}
+
+.navbar-brand h3, h4 {
+  display: inline-block;
+  text-align: center;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 10%;
+}
+
+.topnav-right ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.topnav-right ul li a {
+  color: white;
+  text-decoration: none;
+  padding-right: 3px;
+}
+
+.topnav-right ul li a:hover {
+  color: orange;
+}
+
+.topnav-right {
+  text-align: right;
+}
+
+section {
+  background-color: dimgrey;
+}
+
+section h1 {
+  display: inline-block;
+  color: white;
+  padding-left: 10%;
+  margin-bottom: 0;
+}
+
+section p {
+  color: white;
+  padding-left: 10%;
+  padding-bottom: 35px;
+  margin-top: 0;
+}
+
+.management {
+  background-color: white;
+  margin: auto;
+}
+
+.management > div {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.management h3 {
+  text-align: center;
+}
+
+hr {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #D6AE24;
+  margin-bottom: 30px;
+}
+
+.management ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.info {
+  margin-right: 20px;
+}
+
+.info-left {
+  display: inline-block;
+  float: left;
+  width: 45%;
+  text-align: left;
+}
+
+.info-left h6 {
+  color: goldenrod;
+  margin-top: 2px;
+}
+
+.info-left h5 {
+  margin-bottom: 2px;
+}
+
+.info-right {
+  padding-top: 22px;
+  display: inline-block;
+  float: right;
+  width: auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center button:hover {
+  background-color: orange;
+}
+
+.center button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+.reviews {
+  background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.reviews h3 {
+  padding-top: 30px;
+}
+
+.reviews img {
+  border-radius: 50%;
+}
+
+.reviews p {
+  color: black;
+  padding: 20px 20px;
+}
+
+.reviews h5 {
+  color: #D6AE24;
+  margin-bottom: 5px;
+}
+
+.reviews h6 {
+  margin-top: 5px;
+}
+
+.contacts ul li {
+  width: 300px;
+  list-style-type: none;
+  display: inline-table;
+
+}
+
+.contacts {
+  justify-content: center;
+  align-items: center;
+  background-color: #555555;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contacts ul li {
+  margin-right: 18px;
+}
+
+.contacts h3 {
+  color: goldenrod;
+}
+
+input {
+  background-color: #555555;
+  border: 1px solid gray;
+  height: 35px;
+  width: 100%;
+  margin-bottom: 3px;
+  padding-left: 3px;
+  box-sizing: border-box;
+}
+
+.contacts-details button {
+  background-color: #555555;
+  border: 1px solid gray;
+  width: 100%;
+  height: 35px;
+  color: #dddddd;
+}
+
+.contacts-details button:hover {
+  background-color: goldenrod;
+  color: #555555;
+}
